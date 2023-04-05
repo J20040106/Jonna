@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
     int nowyear, birthyear;
-    cout<<"ÇöÀç³âµµ : ";
+    cout<<"í˜„ìž¬ë…„ë„ : ";
     cin>>nowyear;
-    cout<<"ÅÂ¾î³­ ³âµµ : ";
+    cout<<"íƒœì–´ë‚œ ë…„ë„ : ";
     cin>>birthyear;
-    cout<<"´ç½ÅÀÇ ³ªÀÌ´Â "<<nowyear-birthyear+1<<"»ìÀÔ´Ï´Ù.\n";
+    cout<<"ë‹¹ì‹ ì˜ ë‚˜ì´ëŠ” "<<nowyear-birthyear+1<<"ì‚´ìž…ë‹ˆë‹¤.\n";
 }
