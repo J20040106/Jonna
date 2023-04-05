@@ -15,5 +15,6 @@ int main() {
     }
     for (int i = 0; i < height; i++)
         cout << *(data + i)<<"\n";
+    free(data);
     return 0;
 }
